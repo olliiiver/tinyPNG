@@ -1,6 +1,6 @@
 # PNG decoder library for low memory MCUs
 
-Extract PNG files with a low memory foodprint.
+Extract PNG files with a low memory footprint.
 
 Can be used to "stream" image data to a larger display device. 
 
