@@ -2,12 +2,15 @@
 
 Extract PNG files with a low memory foodprint.
 
-Can be used to "stream" image data to a larger display device.  
+Can be used to "stream" image data to a larger display device. 
+
+The library implements TinyDeflate from https://github.com/bisqwit/TinyDeflate
 
 ## (Current) Limitations
 
 - The input (compressed) PNG image needs to fit into memory
 - No support for palette based PNGs
+- Requires C++17 
 
 ## Usage example
 
@@ -48,3 +51,7 @@ catch (string s)
     return 0;
 }
 ```
+
+## More examples
+
+https://github.com/olliiiver/tinyPNG_platformio_example
