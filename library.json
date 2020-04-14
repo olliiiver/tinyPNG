@@ -1,0 +1,21 @@
+{
+  "name": "tinyPNG",
+  "keywords": "png, image, bitmap, decoder",
+  "description": "Library to decode PNG images on low memory MCUs",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/olliiiver/tinyPNG.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Oliver Kirst",
+      "url": "https://github.com/olliiiver/tinyPNG.git",
+      "maintainer": true
+    }
+  ],
+  "version": "0.1",
+  "frameworks": "*",
+  "platforms": "*"
+}
