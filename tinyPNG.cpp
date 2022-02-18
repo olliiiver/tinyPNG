@@ -24,11 +24,12 @@ SOFTWARE.
 
 */
 
-#include "tinyPNG.h"
 #include <stdio.h>
 #include <iostream>
-#include <gunzip.hh>
 #include <cstring>
+
+#include "gunzip.hh"
+#include "tinyPNG.h"
 
 using namespace std;
 
